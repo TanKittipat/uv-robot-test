@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Library    ChromeHelper.py
+Library    ../libs/ChromeHelper.py
 *** Test Cases ***
 Test With Chrome Binary
     ${chrome_options}=    Get Chrome Options With Binary    D:/654259023/chrome-win64/chrome.exe
